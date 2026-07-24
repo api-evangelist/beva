@@ -1,7 +1,28 @@
 aid: beva
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beva.png
 name: beva
-description: beva is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  beva (贝瓦网), operated by ProKids Technology Corp / 芝兰玉树（北京）科技股份有限公司, is a Chinese
+  IP-and-technology driven family education and entertainment company. Its flagship
+  original IP is the little beaver "Beva" (贝瓦) and the "Beva Children's Songs" (贝瓦儿歌)
+  brand, spanning children's music, animation, literature and interactive entertainment,
+  distributed across web, mobile, OTT, IPTV and television channels. Through its ProKids
+  Copyright Content Open Platform (open.beva.com) beva offers online-application and
+  offline content-access APIs that let third-party mobile apps and smart hardware —
+  story machines, smart speakers and kids' robots such as MiTu, Rokid and the Doraemon
+  story machine — embed licensed children's audio and video content. Backed by Qiming
+  Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/beva/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +32,64 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-apis: []
+- Children
+- Education
+- Entertainment
+- Media
+- Content
+- Kids Audio Video
+- IP Licensing
+- Open Platform
+- China
+apis:
+- name: ProKids Copyright Content Open Platform
+  description: >-
+    The 芝兰玉树版权内容开放平台 (ProKids / Beva Copyright Content Open Platform) exposes
+    online-application content-access APIs (在线应用接入) that deliver beva's licensed
+    children's audio and video catalog to partner mobile apps and smart devices, plus
+    an offline content-access track (离线内容接入). API documentation ("在线应用-API手册") is
+    published on the platform behind partner registration and login.
+  humanURL: https://open.beva.com/
+  baseURL: https://open.beva.com
+  tags:
+  - Children
+  - Content
+  - Audio Video
+  - Open Platform
+  properties:
+  - type: DeveloperPortal
+    url: https://open.beva.com/
+  - type: Documentation
+    url: https://open.beva.com/index.php?r=dev-manual%2Fuse-man
+  - type: APIReference
+    url: https://open.beva.com/index.php?r=dev-manual%2Fapi-man
+  - type: GettingStarted
+    url: https://open.beva.com/index.php?r=dev-manual%2Fuse-man
+  - type: Support
+    url: https://open.beva.com/index.php?r=question-answer%2Fchapter1
+  - type: SignUp
+    url: https://open.beva.com/index.php?r=user%2Fsign-up
+  - type: Login
+    url: https://open.beva.com/index.php?r=user%2Flogin
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/beva-domain-security.yml
+- type: DeveloperPortal
+  url: https://open.beva.com/
+- type: Support
+  url: https://open.beva.com/index.php?r=question-answer%2Fchapter1
 - type: Website
   url: https://beva.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
