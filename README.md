@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-beva is a company surfaced as a portfolio company of qiming and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+beva (贝瓦网), operated by ProKids Technology Corp / 芝兰玉树（北京）科技股份有限公司, is a Chinese IP-and-technology driven family education and entertainment company. Its flagship original IP is the little beaver "Beva" (贝瓦) and the "Beva Children's Songs" (贝瓦儿歌) brand, spanning children's music, animation, literature and interactive entertainment, distributed across web, mobile, OTT, IPTV and television channels. Through its ProKids Copyright Content Open Platform (open.beva.com) beva offers online-application and offline content-access APIs that let third-party mobile apps and smart hardware — story machines, smart speakers and kids' robots such as MiTu, Rokid and the Doraemon story machine — embed licensed children's audio and video content. Backed by Qiming Venture Partners.
 
-Backed by: qiming — https://beva.com
+**Areas:** Company · Children · Education · Entertainment · Media · Content · Kids Audio Video · IP Licensing · Open Platform · China
+
+## beva on APIs.io
+
+Everything profiled for beva is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/beva/](https://apis.io/providers/beva/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [ProKids Copyright Content Open Platform](https://apis.io/apis/beva/prokids-copyright-content-open-platform/) — The 芝兰玉树版权内容开放平台 (ProKids / Beva Copyright Content Open Platform) exposes online-application content-access APIs (在线应用接入) that deliver beva's licensed…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Beva Domain Security](https://apis.io/security/beva/beva-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://beva.com)
+- [Support](https://open.beva.com/index.php?r=question-answer%2Fchapter1)
+
+## API Evangelist rating
+
+**Kin Score 16.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 13.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/beva/](https://apis.io/providers/beva/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for beva: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/beva/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
